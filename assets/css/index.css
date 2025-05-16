@@ -10,11 +10,6 @@ body {
   color: #1458bd;
 }
 
-.nav-item {
-  list-style: none;
-  text-align: center;
-  font-size: medium;
-}
 
 /* ==== Header ==== */
 header {
@@ -56,9 +51,15 @@ footer {
   margin-top: auto;
 }
 
-/*asimila los colores con el hover de nav*/
+/*asimila los colores de los titulos < h1 respecto al header*/
 article h2,
 article h3 {
-  color: #1458bd;
+  color: #024bb8;
+  font-weight: bold;
+}
+
+h3,
+h2 {
+  color: #024bb8;
   font-weight: bold;
 }
