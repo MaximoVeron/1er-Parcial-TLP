@@ -13,7 +13,6 @@ body {
 .nav-item {
   list-style: none;
   text-align: center;
-  padding: 1.5rem;
   font-size: medium;
 }
 
@@ -46,8 +45,20 @@ article p {
 
 /* ==== Footer ==== */
 footer {
-  background-color: #212529;
+  background-color: #024bb8 !important;
   text-align: center;
   padding: 15px 0;
   margin-top: auto;
+  color: #f8f9fa;
+  padding: 1.5rem;
+  font-family: sans-serif;
+  font-style: italic;
+  margin-top: auto;
+}
+
+/*asimila los colores con el hover de nav*/
+article h2,
+article h3 {
+  color: #1458bd;
+  font-weight: bold;
 }
